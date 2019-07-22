@@ -1,2 +1,3 @@
 # simple_functions
-simple mathematical functions implemented in Python
+
+This folder contains very simple mathematical functions but in a programming way.
