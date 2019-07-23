@@ -2,7 +2,7 @@ def exp_iter(a, n):
     """returns a to the nth power (iterative way)"""
     try:
         exp = 1
-        if n >= 0:
+        if n > 0:
             for i in range(n):
                 exp *= a
         else:
