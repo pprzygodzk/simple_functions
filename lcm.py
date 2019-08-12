@@ -1,12 +1,12 @@
-from nwd_iteracyjnie import NWD_iter
+from gcd_iter import GCD_iter
 from functools import reduce
 
 def LCM(a, b):
     """returns the least common multiple (LCM) of two integers a & b"""
     try:
-        assert a > 0 and b > 0, "both arguments need to be different than zero"
-        lcm = a*b/NWD_iter(a, b) # function NWD_iter is GCD (greatest common divisor)
-        return lcm
+        assert a > 0 and b > 0, "Both arguments need to be different than zero"
+        lcm = a*b/GCD_iter(a, b)
+        return int(lcm)
     except TypeError:
         print("Given arguments are the wrong type!")
         
