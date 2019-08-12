@@ -1,6 +1,6 @@
 def fibonacci_iter(n):
     try:
-        assert n > 0, "liczenie wyrazow ciagu fibonacciego zaczyna sie od 1"
+        assert n > 0, "Fibonacci numbers are indexed from 1"
         if n == 1 or n == 2:
             return 1
         f_1 = 1
@@ -11,4 +11,4 @@ def fibonacci_iter(n):
             f_2 = f_n
         return f_n
     except TypeError:
-        print("Niewlasciwy argument dla funkcji")
+        print("Given argument is the wrong type!")
